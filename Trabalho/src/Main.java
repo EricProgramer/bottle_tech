@@ -1,4 +1,3 @@
-//teste
 import java.util.Scanner;
 import java.time.LocalDate;
 import java.time.LocalTime;
@@ -124,13 +123,12 @@ System.out.println("┌─────────────┬─────
 	                                 }
 	                             }else if (op == 2) {
 	while (true ) {
-		 //Sistema de pagamento por Dinheiro
-		 //Valor da compra 
-		 //Valor do troco
+		try {
+			Scanner t= new Scanner(System.in);
 		 System.out.println("\n = = = Area de Pagamento! = = = ");
 		 System.out.println("\n1 - Debito \n2 - Credito \n3 - Pix \n4 - Dinheiro \n5 - Voltar ao Menu");
 		 System.out.print("Selecione o metodo de pagamento: ");
-		 int op2 = sc.nextInt();
+		 int op2 = t.nextInt();
 		 
 		 if (op2 == 1) {
 			 System.out.println("Pagamento via cartao de debito!");
@@ -224,8 +222,11 @@ System.out.println("┌─────────────┬─────
 			 System.out.println("\nInsira uma opção válida, por favor.");
 		 }
 		 break;
+		} catch (Exception e) {
+			System.out.println("\nInsira somente numeros, por favor.\n");
 		}
-	       } else if ( op == 3) {
+		
+	       } } else if ( op == 3) {
        	   while(true){
       			System.out.print("\n = = = SUGESTÕES E AVALIAÇÕES = = = \n\nOlá! O que você deseja realizar?\n1 - Sugestão\n2 - Reclamação\n3 - Voltar\nInsira a sua opção: ");
       			int op3 = sc.nextInt();
@@ -317,5 +318,3 @@ System.out.println("┌─────────────┬─────
 		}
 	}
 	}
-	
-
