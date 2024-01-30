@@ -9,11 +9,9 @@ sobre os serviços.
 
 Linguagens utilizadas: 
 
-<img width = "50" height = "50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
+<img width = "50" height = "50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"/>
           
 
+Equipe: 
 
-
-
-
-
+<img width = "80" height = "80" src="img-elaine.png" alt="Elaine"> <a href ="#">Elaine</a><img width = "80" height = "80" src="img-esther.png" alt="Esther"> <a href ="#">Esther</a> <img width = "80" height = "80" src="img-isabel.png" alt="Isabel"> <a href ="#">Isabel</a> <img width = "80" height = "80" src="img-eric.png" alt="Eric"> <a href ="#">Eric</a> <img width = "80" height = "80" src="img-esmirna.png" alt="Esmirna"> <a href ="#">Esmirna</a> <img width = "80" height = "80" src="img-jessica.png" alt="Jéssica"> <a href ="#">Jéssica</a>
